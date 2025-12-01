@@ -1,0 +1,57 @@
+
+.band {
+  background-color: rgb(225, 173, 173);
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+}
+
+
+.top-nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 0;
+}
+
+.top-nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.top-nav a:hover {
+  color: blue;
+}
+
+.content-row {
+  display: flex;
+  gap: 10px;
+}
+
+.main {
+  width: 70%;
+  background-color: #dfe7d2;
+  margin: 5px;
+  padding: 10px;
+}
+
+.sidebar {
+  width: 30%;
+  background-color: #d74545;
+  margin: 5px;
+  padding: 10px;
+}
+
+.sidebar:hover {
+  background-color: #bbb;
+}
+
+input[type="text"] {
+  width: 60%;
+  transition: width 0.3s;
+}
+
+input[type="text"]:focus {
+  width: 90%;
+}
